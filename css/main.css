@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+nav {
+    margin-top: 20px;
+}
+
+header {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navBar {
+    background-color: rgba(0, 0, 0, 0.38);
+    border-radius: 40px;
+    height: 50px;
+    text-align: center;
+    padding: 9px;
+
+}
+
+
+.navBar ul a li {
+    font-size: 20px;
+    display: inline;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+
+.navBar ul a li:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    font-size: 20px;
+    display: inline;
+    margin: 15px;
+    transition: .2s;
+}
+
+.navBar ul a {
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+body {
+    height: 2000px;
+    background: linear-gradient(55deg, #272361 0%, #103647 51%, #192e5a 85%);
+}
+
+.home {
+    margin-left: 7%;
+    padding-top: 13%;
+    display: inline-block;
+}
+
+.aH2 {
+    display: inline-block;
+    padding-top: 18%;
+    color: #b1c4e7;
+}
+
+.hey {
+    padding-left: 10px;
+    font-size: 30px;
+    color: #e9f7fd;
+}
+
+.p1 {
+    display: inline;
+}
+
+.fH1 {
+    color: #e9f7fd;
+}
+
+.fH5 {
+    padding-top: 5px;
+    color: #b1c4e7;
+}
+
+.fButton {
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #002433;
+    color: #d8eef8;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+
+.fButton:hover {
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: .5s;
+    background-color: #d8eef8;
+    color: #002433;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.fImg {
+    margin-left: 10%;
+    display: inline;
+    margin-bottom: 13%;
+    width: 60%;
+}
+
+.about {
+    height: 25%;
+    margin: 50px;
+    padding-top: 50px;
+    /* background: linear-gradient(55deg, #272361 0%, #103647 51%, #192e5a 85%); */
+    border-radius: 30px;
+    padding: 20px;
+    /* height: 300px; */
+    /* box-shadow: 7px 7px 5px 7px rgba(0, 36, 51, 0.15); */
+}
+
+
+
+.sH1 {
+    color: #e9f7fd;
+    /* position: relative; */
+    text-align: center;
+}
+
+.aboutMeP {
+    color: #e9f7fd;
+    font-size: 25px;
+}
+
+.pDiv {
+    margin-top: 40px;
+    vertical-align: middle;
+    margin-left: 50px;
+    display: inline-block;
+    width: 50%;
+}
+
+.mo {
+    display: inline;
+    color: #fff;
+}
+
+.img2 {
+    display: inline;
+    width: 30%;
+}
+
+.ul li {
+    color: #fff;
+    font-size: 25px;
+    /* display: inline; */
+}
+
+
+
+.container img {
+    width: 70px;
+    height: 70px;
+}
+
+.container {
+    display: grid;
+}
+
+.container__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.container .container__box .box {
+    background: linear-gradient(270deg, #5e8ca1 0%, #72a2b8 51%, #738bbe 85%);
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+
+}
+
+.container .container__box .box:hover {
+
+    background: linear-gradient(55deg, #abaad8 0%, #9abfcf 51%, #91a0c0 85%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px rgba(49, 88, 104, 0.6);
+    text-align: center;
+    padding: 20px 30px;
+    transition: .4s;
+
+}
+
+
+
+.container__heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #e9f7fd;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container .container__box .box h3 {
+    color: #002433;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .container__box .box p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #002433;
+}
+
+.container .container__box .box a {
+    border-radius: 4px;
+    background: #1e408a;
+    color: white;
+
+}
+
+.container .container__box .box a:hover {
+    background: #11244d;
+}
+
+
+
+
+.contact {
+    background: linear-gradient(55deg, #272361 0%, #103647 51%, #192e5a 85%);
+    color: #e9f7fd;
+    text-align: right;
+    padding: 14%;
+    padding-right: 10%;
+}
+
+.contact h2 {
+    font-family: Superior title, Times New Roman, sans-serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+
+.con h6 {
+    font-family: Superior title, Times New Roman, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+}
+
+.con a {
+    color: #e9f7fd;
+    text-decoration: none;
+}
+
+.con a:hover {
+    color: #96b0b9;
+}
+
+.foot {
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.foot h6 {
+    padding: 15px;
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
